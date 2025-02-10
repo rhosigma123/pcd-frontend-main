@@ -24,23 +24,23 @@ const notoSans = Noto_Sans({
 export const metadata: Metadata = {
   title: "PCD Flow Meters | Precision Flow Measurement Solutions",
   description: "PCD (Process Control Devices) manufactures high-precision flow meters for various industries, ensuring accurate and reliable flow measurement solutions.",
-  metadataBase: new URL("https://www.pcd-flowmeter.com"),
+  metadataBase: new URL("http://localhost:3000"),
   twitter: {
     card: "summary_large_image",
     images: "/opengraph-image.jpg",
-    site: "@pcd_flowmeter",
+    // site: "@pcd_flowmeter",
   },
   openGraph: {
     title: "PCD Flow Meters | Precision Flow Measurement Solutions",
     description: "Discover a wide range of high-quality flow meters from Process Control Devices (PCD), designed for industrial and commercial applications.",
     images: [
       {
-        url: "https://www.pcd-flowmeter.com/opengraph-image.jpg",
+        url: "/opengraph-image.jpg",
         width: 4800,
         height: 2520,
       },
     ],
-    url: "https://www.pcd-flowmeter.com",
+    url: "http://localhost:3000",
     locale: "en_US",
     siteName: "PCD Flow Meters",
   },

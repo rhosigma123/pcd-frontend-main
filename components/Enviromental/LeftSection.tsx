@@ -1,4 +1,6 @@
+'use client'
 import React from "react";
+
 import Image from "next/image";
 import { motion } from "motion/react";
 
@@ -51,7 +53,7 @@ function LeftSection({ isLeftSection, headingtitle, items }: leftSection) {
               energy mix and promote clean energy adoption.
             </p>
 
-            <ul className="w-full relative h-auto flex flex-start gap-4 text-webtext">
+            <ul className="w-full relative h-auto flex flex-col items-start gap-2 px-4 text-webtext">
               {items?.map((item, index) => (
                 <li className="text-webtext font-medium list-disc" key={index}>
                   {item.title}
@@ -74,7 +76,7 @@ function LeftSection({ isLeftSection, headingtitle, items }: leftSection) {
               gas emissions. Our goal is to transition to a more sustainable
               energy mix and promote clean energy adoption.
             </p>
-            <ul className="w-full relative h-auto flex flex-start gap-4 text-webtext">
+            <ul className="w-full relative h-auto flex flex-col gap-1 px-4 text-webtext">
               {items?.map((item, index) => (
                 <li className="text-webtext font-medium list-disc" key={index}>
                   {item.title}
