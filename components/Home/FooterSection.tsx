@@ -36,9 +36,9 @@ function FooterSection() {
               <Image
                 src={"/logo.png"}
                 alt="Logo"
-                width={300}
-                height={400}
-                className=" h-[50px] w-[100px] lg:h-[100px] lg:w-[200px] object-contain relative "
+                width={800}
+                height={800}
+                className=" h-[100px] w-[200px] lg:h-[100px] lg:w-[200px] object-contain relative "
               />
               <Link
                 href={"/"}
@@ -250,7 +250,8 @@ function FooterSection() {
           <p className="text-p18 font-medium text-webaccent">
             Developed By{" "}
             <Link
-              href={"/sovorun.com"}
+              href={"http://sovorun.com"}
+           
               target="_blank"
               className="text-p22 uppercase font-medium text-blue-700"
             >

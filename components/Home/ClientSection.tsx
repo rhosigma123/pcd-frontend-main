@@ -7,7 +7,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 function ClientSection() {
   return (
-    <section className="w-full relative px-10  h-auto py-5 bg-websecondary ">
+    <section className="w-full relative px-5 md:px-10  h-auto py-5 bg-websecondary ">
       {/* <Swiper
           spaceBetween={30}
           pagination={{
@@ -50,7 +50,7 @@ function ClientSection() {
         autoplay={{
             delay:0
         }}
-        speed={1500}
+        speed={2000}
         loop={true}
         modules={[Pagination,Autoplay]}
         className="mySwiper   w-full realtive h-auto swiper-container-free-mode"

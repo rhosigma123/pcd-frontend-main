@@ -15,9 +15,12 @@ function IndustriesCard2({
   imageSrc,
 }: industriesCardtype) {
   return (
-    <Link className=" h-[350px] sm:h-[350px] w-full relative group " href={` `}>
+    <Link
+      className=" max-w-[400px] mx-auto md:mx-0 md:max-w-full h-[350px] sm:h-[350px] w-full relative group "
+      href={` `}
+    >
       <div
-        className="flex-col flex  gap-[10px] bg-cover bg-no-repeat   overflow-hidden  rounded-[12px] h-[300px] sm:h-[350px]"
+        className="flex-col flex  gap-[10px] bg-cover bg-no-repeat   overflow-hidden  rounded-[12px] h-[350px] sm:h-[350px]"
         style={{
           backgroundImage: `linear-gradient( 0deg, #000000 10.48%, #00000000 30.26%), 
                           linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), 

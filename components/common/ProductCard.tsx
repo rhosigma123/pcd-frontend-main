@@ -16,7 +16,7 @@ type ProductTypes={
 
 function ProductCard({css,name,productId,description,link}:ProductTypes ) {
   return (
-    <div className={`flex items-start justify-start max-w-[400px]  self-center justify-self-center md:max-w-full md:w-full flex-col relative h-auto   ${css ? css : 'bg-white p-4'}`}>
+    <Link   href={`/products/${link}`} className={`flex items-start justify-start max-w-[400px]  self-center justify-self-center md:max-w-full md:w-full flex-col relative h-auto  cursor-pointer  ${css ? css : 'bg-white p-4'}`}>
       <Image
         src={"/productimage.png"}
         alt="product image"
@@ -35,14 +35,13 @@ function ProductCard({css,name,productId,description,link}:ProductTypes ) {
           {description}
         </p>
 
-        <Link
-          href={`/${link}`}
+        <p
           className="text-base font-medium text-webaccent border-b  border-webaccent w-fit"
         >
           Learn More
-        </Link>
+        </p>
       </div>
-    </div>
+    </Link>
   );
 }
 

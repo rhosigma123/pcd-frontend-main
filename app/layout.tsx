@@ -23,7 +23,7 @@ const notoSans = Noto_Sans({
 
 export const metadata: Metadata = {
   title: "PCD Flow Meters | Precision Flow Measurement Solutions",
-  description: "PCD (Process Control Devices) manufactures high-precision flow meters for various industries, ensuring accurate and reliable flow measurement solutions.",
+  description: "One Valencia Taloja Phase 2 offers 1/2/4/5 Bhk flats under construction with all modern amenities. Get the best deals & Offers Here. Contact Us Now",
   metadataBase: new URL("http://localhost:3000"),
   twitter: {
     card: "summary_large_image",

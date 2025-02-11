@@ -20,7 +20,7 @@ const ProductData = [
     productId: "BT-3000-G",
     description:
       "Burak Metering offers a series of digital flow meters. One of its types is the thermal mass flow meter.",
-    link: "",
+    link: "thermal-mass",
     image: "",
     css: " border border-transparent hover:border-secondary bg-secondary p-3",
     tags: ["Flow meters", "all", "Mechanical"],
@@ -30,7 +30,7 @@ const ProductData = [
     productId: "BT-3000-G",
     description:
       "Burak Metering offers a series of digital flow meters. One of its types is the thermal mass flow meter.",
-    link: "",
+      link: "thermal-mass",
     image: "",
     css: " border border-transparent hover:border-secondary bg-secondary p-3",
     tags: ["Flow meters", "all", "Rotameteres"],
@@ -40,7 +40,7 @@ const ProductData = [
     productId: "BT-3000-G",
     description:
       "Burak Metering offers a series of digital flow meters. One of its types is the thermal mass flow meter.",
-    link: "",
+      link: "thermal-mass",
     image: "",
     css: " border border-transparent hover:border-secondary bg-secondary p-3",
     tags: ["Level Switches", "all", "Rotameteres"],
@@ -124,7 +124,7 @@ function Productpage() {
             pathLength: 1,
           }}
           transition={{ type: "spring", ease: "easeOut", duration: 2 }}
-          className="w-full relative min-h-[50vh]  grid grid-cols-4   gap-5 "
+          className="w-full relative min-h-[50vh]  grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4   gap-5 "
         >
           {filterdata.map((item, index) => (
             <ProductCard

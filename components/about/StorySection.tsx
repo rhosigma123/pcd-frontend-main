@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 function StorySection() {
   return (
-    <section className="w-full Relative h-auto flex flex-col gap-3 items-center justify-center  py-10 flow-container">
+    <section className="w-full Relative h-auto flex flex-col gap-3 items-center justify-center   py-10 md:py-20 flow-container">
       <motion.h2
         initial={{ transform: "translatey(100px)", opacity: 0, pathLength: 0 }}
         whileInView={{

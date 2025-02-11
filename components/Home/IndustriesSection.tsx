@@ -23,7 +23,7 @@ import { motion } from "motion/react";
 
 function IndustriesSection() {
   return (
-    <section className="w-full relative py-10 h-auto bg-white">
+    <section className="w-full relative  py-10 md:py-20 h-auto bg-white">
       <div className="w-full relative h-auto flex flex-col gap-6 items-center justify-center ">
         <motion.h2
           initial={{

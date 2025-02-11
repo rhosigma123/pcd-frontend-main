@@ -24,7 +24,7 @@ function BlogsCard({css ,image, createdat,createdby,title,description,slug}:blog
         alt="placeholder"
         height={500}
         width={500}
-        className="w-full h-[300px] rounded-lg object-cover cursor-pointer"
+        className="w-full h-[200px] md:h-[300px] rounded-lg object-cover cursor-pointer"
       />
       <div
         className="w

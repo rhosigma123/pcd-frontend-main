@@ -10,8 +10,20 @@ function HomeBanner() {
         alt="Banner Imagen | flow Device"
         height={1500}
         width={1500}
+        loading="eager"
         className="w-full relative h-full object-cover "
       />
+      {/* <picture>
+        <source media="(min-width:650px)" srcSet="/homebanner.jpg" height={600} width={600} className="w-full relative h-auto object-cover" />
+        <Image 
+          src="/homebanner.jpg"
+          alt="Banner Imagen | flow Device"
+          height={1500}
+          width={1500}
+          className="w-full relative h-full object-cover "
+          loading="eager"
+        />
+      </picture> */}
       <section className="w-full absolute top-0 h-full flex flex-col items-center  justify-center bg-black/60 ">
         <div className="w-full grid lg:grid-cols-[2fr_1fr] gap-5 2xl:gap-32 items-center justify-center flow-container ">
           <BannerContent />
@@ -20,7 +32,6 @@ function HomeBanner() {
             title={"Get a Free Quote"}
             fromtitlecss="text-p32 font-medium text-webaccent"
           />
-          
         </div>
       </section>
     </section>

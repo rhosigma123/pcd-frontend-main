@@ -43,7 +43,7 @@ const data = [
 function BlogsSection({ css, title, titlecss }: blogsSectiontype) {
   return (
     <section
-      className={`w-full relative py-10 h-auto  ${
+      className={`w-full relative  py-10 md:py-20 h-auto  ${
         css ? css : "bg-websecondary"
       }`}
     >
@@ -97,7 +97,7 @@ function BlogsSection({ css, title, titlecss }: blogsSectiontype) {
         </motion.section>
 
         <Link
-          href="/products"
+          href="/blogs"
           className="text-p18 px-5 hover:text-webaccent hover:bg-transparent hover:border-webaccent border border-transparent transition-all duration-300 py-2 w-fit mx-auto mt-6 font-medium text-white bg-webaccent rounded-xl"
         >
           View All Blogs

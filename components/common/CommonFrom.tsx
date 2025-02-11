@@ -66,7 +66,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
           </h3>
         )}
       </div>
-      <span className="w-full relative flex flex-col gap-1  ">
+      <span className="w-full relative flex flex-col   ">
         <label
           htmlFor="name"
           className={`text-p18 font-normal ${
@@ -78,7 +78,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
 
         <input
           type="text"
-          className="w-full relative h-auto rounded-md px-2 py-2 flex items-center border border-[#cecece]  placeholder:text-[#A8A8A8] "
+          className="w-full relative h-auto rounded-md px-2 py-2 flex items-center border border-[#e4e3e3]  placeholder:text-[#A8A8A8] "
           placeholder="Enter your Name *"
           {...register("fullName")}
         />
@@ -88,7 +88,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
           </p>
         )}
       </span>
-      <span className="w-full relative flex flex-col gap-1  ">
+      <span className="w-full relative flex flex-col   ">
         <label
           htmlFor="name"
           className={`text-p18 font-normal ${
@@ -100,7 +100,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
 
         <input
           type="text"
-          className="w-full relative h-auto flex rounded-md   px-2 py-2 items-center border border-[#cecece]  placeholder:text-[#A8A8A8] "
+          className="w-full relative h-auto flex rounded-md   px-2 py-2 items-center border border-[#e4e3e3]  placeholder:text-[#A8A8A8] "
           placeholder="Enter Your Phone *"
           {...register("phone")}
         />
@@ -110,7 +110,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
           </p>
         )}
       </span>
-      <span className="w-full relative flex flex-col gap-1  ">
+      <span className="w-full relative flex flex-col   ">
         <label
           htmlFor="name"
           className={`text-p18 font-normal ${
@@ -122,7 +122,7 @@ function CommonFrom({ title, css, subtitle, titlecss ,fromtitlecss }: fromType) 
 
         <input
           type="text"
-          className="w-full relative h-auto flex  px-2 py-2 items-center border border-[#cecece] rounded-md placeholder:text-[#A8A8A8] "
+          className="w-full relative h-auto flex  px-2 py-2 items-center border border-[#e4e3e3] rounded-md placeholder:text-[#A8A8A8] "
           placeholder="Enter Your Email *"
           {...register("email")}
         />

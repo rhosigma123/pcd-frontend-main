@@ -34,21 +34,22 @@ function ConnectSection({ isProductBanner, title, css }: Values) {
       {!isProductBanner && (
         <div className="w-full relative mt-5 h-auto flex md:flex-row flex-wrap items-center justify-center gap-5 lg:gap-10 flow-container ">
           <Link
-            href={""}
+            href={"melto:sales@pcd-flowmeter.com"}
             className=" w-fit relative text-webaccent h-auto transition-all duration-300 flex items-center gap-2 rounded-full  bg-white  justify-center px-8 py-2 text-p18 uppercase border-transparent border hover:border-white hover:bg-transparent hover:text-white"
           >
             <MdOutlineMailOutline className="text-[22px] " />
             Email
           </Link>
           <Link
-            href={""}
+            href={"https://wa.me/9773141989"}
+            target="_black"
             className=" w-fit relative text-webaccent transition-all duration-300 h-auto flex items-centern gap-2 rounded-full bg-white  justify-center px-8 py-2 text-p18 uppercase border-transparent border hover:border-white hover:bg-transparent hover:text-white"
           >
             <FaWhatsapp className=" text-[22px] " />
             WhatsApp
           </Link>
           <Link
-            href={""}
+            href={"tel:+91 9773141989"}
             className=" w-fit relative text-webaccent h-auto  transition-all duration-300 flex items-center gap-2 rounded-full  bg-white justify-center px-8 py-2 text-p18 uppercase border-transparent border hover:border-white hover:bg-transparent hover:text-white"
           >
             <IoCallOutline className="text-[22px]" />

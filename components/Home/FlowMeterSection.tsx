@@ -55,7 +55,7 @@ const ProductData = [
 
 function FlowMeterSection({ title, titlecss }: flowmetertype) {
   return (
-    <section className="w-full relative py-10 h-auto bg-websecondary">
+    <section className="w-full relative py-10 md:py-20  h-auto bg-websecondary">
       <div
         className={`w-full relative h-auto flex flex-col gap-6  ${
           titlecss && "items-center justify-center"

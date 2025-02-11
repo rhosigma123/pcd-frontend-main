@@ -4,7 +4,7 @@ import PcdCard from "../common/PcdCard";
 import { motion } from "motion/react";
 function Pcdsection() {
   return (
-    <section className="w-full relative h-auto py-10 md:py-10 flow-container flex flex-col gap-5">
+    <section className="w-full relative h-auto py-10 md:py-20 flow-container flex flex-col gap-5">
       <motion.h2
         initial={{ transform: "translatey(100px)", opacity: 0, pathLength: 0 }}
         whileInView={{
@@ -74,7 +74,7 @@ function Pcdsection() {
         >
           <PcdCard
             color={"bg-[#DAFFDF]"}
-            titlecss="text-p32 font-semibold"
+            titlecss="text-p22 font-semibold"
             title={"We are Recognized"}
             descriprion={
               "Unique application needs within their respective industries. Unique application needs within their respective industries."
@@ -82,7 +82,7 @@ function Pcdsection() {
           />
           <PcdCard
             color={"bg-[#F2E9FF]"}
-            titlecss="text-p32 font-semibold"
+            titlecss="text-p22 font-semibold"
             title={"All in One Solution"}
             descriprion={
               "All in One Solution Unique application needs within their respective industries. Unique application needs within their respective industries."
